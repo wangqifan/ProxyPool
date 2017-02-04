@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Quartz</id>
+    <version>2.4.1</version>
+    <title>Quartz.NET</title>
+    <authors>Marko Lahma</authors>
+    <owners>Marko Lahma</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://www.quartz-scheduler.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quartz.NET Scheduling Framework for .NET Platform</description>
+    <summary />
+    <releaseNotes>FIXES
+
+* Fix Common.Logging version 3.3.1 to be a true binary reference instead of just NuGet dependency</releaseNotes>
+    <copyright>Copyright Marko Lahma</copyright>
+    <language>en-US</language>
+    <tags>scheduling tasks jobs triggers scheduler threading</tags>
+    <dependencies>
+      <dependency id="Common.Logging" version="3.3.1" />
+    </dependencies>
+  </metadata>
+</package>

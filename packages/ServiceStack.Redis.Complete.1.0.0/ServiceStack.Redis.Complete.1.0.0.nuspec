@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ServiceStack.Redis.Complete</id>
+    <version>1.0.0</version>
+    <title>ServiceStack.Redis 3.9.x Complete Library</title>
+    <authors>AlexChow</authors>
+    <owners>AlexChow</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A ServiceStack.Redis 3.9.x Complete Library</description>
+    <summary>Pack dlls in one package:
+ServiceStack.Common.dll
+ServiceStack.Interfaces.dll
+ServiceStack.ServiceInterface.dll
+ServiceStack.dll
+ServiceStack.OrmLite.dll
+ServiceStack.OrmLite.SqlServer.dll
+ServiceStack.Redis.dll
+ServiceStack.Text.dll</summary>
+  </metadata>
+</package>
