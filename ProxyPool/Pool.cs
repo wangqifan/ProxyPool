@@ -15,7 +15,7 @@ namespace ProxyPool
          
              try
              {
-                 using (RedisClient client = new RedisClient("59.74.169.57", 6379))
+                 using (RedisClient client = new RedisClient("127.0.0.1", 6379))
                  {
                      result = client.GetRandomItemFromSet("ProxyPool");
                  }
@@ -29,7 +29,7 @@ namespace ProxyPool
          {
              try
              {
-                 using (RedisClient client = new RedisClient("59.74.169.57", 6379))
+                 using (RedisClient client = new RedisClient("127.0.0.1", 6379))
                  {
                      client.RemoveItemFromSet("ProxyPool", value);
                  }
