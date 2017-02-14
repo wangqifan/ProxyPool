@@ -13,8 +13,8 @@ namespace ProxyPool
     {
         public void Execute(IJobExecutionContext context)
         {
-            PoolManage manager = new PoolManage();
-            manager.Initial();
+            PoolSpider spider = new PoolSpider();
+            spider.Initial();
         }
     }
 }
