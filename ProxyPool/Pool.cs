@@ -25,7 +25,7 @@ namespace ProxyPool
              return result;
           
          }
-         public static void  PushProxy(string value)
+         public static void  DeleteProxy(string value)
          {
              try
              {
@@ -38,6 +38,18 @@ namespace ProxyPool
              {
                  Console.WriteLine("删除代理失败！");
              }
+         }
+         public static void Add(Proxy proxy)
+         {
+             using (RedisClient client = new RedisClient("127.0.0.1", 6379))
+             {
+                 if (Tool.IsAvailable(proxy))
+                 {
+                     Console.WriteLine(proxy.Adress + proxy.port.ToString());
+                     client.AddItemToSet("ProxyPool", proxy.Adress + ":" + proxy.port.ToString());
+                 }
+             }
+
          }
     }
 }
