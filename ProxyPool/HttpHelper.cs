@@ -11,13 +11,14 @@ namespace ProxyPool
 {
      public   class HttpHelper
     {
-        public static string DownloadHtml(string url)
+        public static string DownloadHtml(string url,WebProxy proxy)
         {
             string source = string.Empty;
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0";
+                request.Proxy = proxy;
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 {
                     using (Stream dataStream = response.GetResponseStream())
