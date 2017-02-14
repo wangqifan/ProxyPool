@@ -29,7 +29,7 @@ namespace ProxyPool
                  .StartNow()
                  .WithSimpleSchedule(
                  x => x
-                .WithIntervalInMinutes(1)
+                .WithIntervalInMinutes(5)//5分钟一次
                  .RepeatForever()
                 ).Build();
                 scheduler.ScheduleJob(job, trigger);

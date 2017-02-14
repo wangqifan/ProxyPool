@@ -45,7 +45,7 @@ namespace ProxyPool
              {
                  if (Tool.IsAvailable(proxy))
                  {
-                     Console.WriteLine(proxy.Adress + proxy.port.ToString());
+                     Console.WriteLine(proxy.Adress +":"+ proxy.port.ToString()+"入池");
                      client.AddItemToSet("ProxyPool", proxy.Adress + ":" + proxy.port.ToString());
                  }
              }
