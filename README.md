@@ -13,11 +13,12 @@
       * 任务调度-Quartz.NET
       
 基本原理
------
-  部分网站上有免费的代理IP信息，比如xicidaili.com，proxy360.cn。这些网站有很多免费代理IP，然而有些质量不好，需要程序及时从代理池中删掉质量低的代理，不断加入优质代理。
+---
+ 
+   部分网站上有免费的代理IP信息，比如xicidaili.com，proxy360.cn。这些网站有很多免费代理IP，然而有些质量不好，需要程序及时从代理池中删掉质量低的代理，不断加入优质代理。
  
 备注
 --------------
-[思路来自知乎](https://www.zhihu.com/question/25566731)
-[博客地址](https://www.cnblogs.com/zuin)
+[思路来自知乎](https://www.zhihu.com/question/25566731)<br>
+[博客地址](https://www.cnblogs.com/zuin)<br>
 [我的知乎爬虫](https://github.com/wangqifan/ZhiHu)
