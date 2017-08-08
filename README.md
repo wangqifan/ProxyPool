@@ -1,4 +1,5 @@
-#ProxyPool
+ProxyPool
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 应用场景
 ----
@@ -8,7 +9,6 @@
       * Redis的C#驱动-ServiceStack.Redis
       * Html解析-HtmlAgilityPack
       * 任务调度-Quartz.NET
-      
 基本思路
 ----
    部分网站上有免费的代理IP信息，比如xicidaili.com，proxy360.cn。这些网站有很多免费代理IP，然而有些质量不好，需要程序及时从代理池中删掉质量低的代理，不断加入优质代理。<br>
