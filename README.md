@@ -7,9 +7,9 @@ ProxyPool
 
 所用的工具
 ------
-          * Redis的C#驱动-ServiceStack.Redis
-          * Html解析-HtmlAgilityPack
-          * 任务调度-Quartz.NET
+         * Redis的C#驱动-ServiceStack.Redis
+         * Html解析-HtmlAgilityPack
+         * 任务调度-Quartz.NET
       
       
 基本思路
